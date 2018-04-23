@@ -14,14 +14,13 @@ Various scripts for working with the xMatters API via Python.
 * [auth.json](auth.sample.json) - This file defines the instance and credentials for accessing the xMatters API.
 
 # Installation
-Details of the installation go here. 
 
 ## Authentication File
-1. Rename or copy `auth.sample.json` to `auth.json`
-2. Edit instance and credentials in `auth.json`
+1. Rename or copy `auth.sample.json` to `auth.json`.
+2. Edit instance and credentials in `auth.json`.
 
 ## Python Setup
-1. Basic python setup information can be found online
+1. Basic python setup information can be found online.
 2. You may need to install `HTTPBasicAuth` by running `pip install HTTPBasicAuth`.
 3. You can use `pip` to install any other missing libraries as well.
 
