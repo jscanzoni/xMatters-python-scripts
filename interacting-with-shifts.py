@@ -8,8 +8,13 @@
 ##
 #################################################################
 
-
 print '\n\n\n--START SCRIPT--\n\n\n'
+
+############################
+#settings
+############################
+
+group = 'Daily + Off Hours'             #set to group that needs to be modified
 
 ############
 #imports
@@ -21,14 +26,10 @@ from requests.auth import HTTPBasicAuth
 import json
 
 ############################
-#authenticate / settings
+#authenticate
 ############################
 
-group = 'Daily + Off Hours'             #set to group that needs to be modified
-
-
 settings = json.load(open('auth.json')) #if auth.json doesn't exist, copy auth.json.sample
-
 base_URL = 'https://'+settings['instance']+'/api/xm/1' 
 auth = HTTPBasicAuth(settings['username'], settings['password'])
 headers = {'Content-Type': 'application/json'}
