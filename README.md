@@ -21,7 +21,7 @@ Various scripts for working with the xMatters API via Python.
 
 ## Python Setup
 1. Basic python setup information can be found online.
-2. You may need to install `HTTPBasicAuth` by running `pip install HTTPBasicAuth`.
+2. You may need to install `HTTPBasicAuth` by running `pip install HTTPBasicAuth` in your terminal.
 3. You can use `pip` to install any other missing libraries as well.
 
 # Testing
